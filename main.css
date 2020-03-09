@@ -1,0 +1,77 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+}
+
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+body {
+    top: 0;
+    line-height: 1.4;
+    padding: 0;
+    top: 0;
+    margin: 0;
+    background-color: #D0CDCB;
+}
+
+/* nav-bar */
+
+.container {
+    border-radius: 0.1rem;
+}
+
+.nav.nav-pills.justify-content-end li a {
+    color: var(--light);
+}
+
+.nav.nav-pills.justify-content-end {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.nav.nav-pills.justify-content-end li a:hover {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.navbar-header a {
+    color: var(--light);
+}
+
+.head {
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 0.2rem;
+}
+
+.introduction {
+    background-color: violet;
+    margin-top: 0.5rem;
+}
+
+.brand-name {
+    margin-left: 10rem;
+}
+
+.logo-img {}
+
+.container-fluid.introduction-img {
+}
+
+.container {
+    margin-top: 1rem;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo-img {
+    height: 100%;
+    width: 100%;
+}
