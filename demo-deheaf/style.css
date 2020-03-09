@@ -100,7 +100,7 @@ body {
     grid-column-end: 2;
     background-color: #FFFFFF;
     border-radius: 5px;
-    /* height: 400px; */
+    height: 400px;
 }
 
 .text {
@@ -115,17 +115,33 @@ body {
     padding-left: 12px;
 }
 
-.content-text-01 {
+.content {
     padding: 12px;
+    padding-left: 30px;
     margin-bottom: 3px;
     background-color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
-.content-text-02 {
+.image-class {
+    width: 80%;
+}
+
+.hastag {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    padding-bottom: 1   px;
+}
+
+.author {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+/* .content-02 {
     padding: 12px;
     margin-bottom: 3px;
     background-color: #FFFFFF;
-}
+} */
 
 .main-content {
     grid-column-start: 2;
