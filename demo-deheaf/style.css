@@ -129,12 +129,51 @@ body {
 
 .hastag {
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-    padding-bottom: 1   px;
+    padding-bottom: 1 px;
 }
 
 .author {
     font-family: 'Lobster', cursive;
     font-size: 20px;
+}
+
+.wrapper-info {
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding-left: 12px;
+}
+
+.read-more {
+    text-decoration: none;
+}
+
+.read-more:hover {
+    font-size: 18px;
+    color: lightseagreen;
+}
+
+.interact {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 12px;
+    margin-top: 3px;
+}
+
+.btn {
+    background-color: var(--dark);
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 12px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover  {
+    /* background-color: var(--); */
+
 }
 
 /* .content-02 {
@@ -167,16 +206,27 @@ body {
 
 .fab.fa-telegram-plane.fa-2x {
     color: #fff;
-    padding-right: 5px;
+    padding-right: 8px;
+}
+
+.fab.fa-telegram-plane.fa-2x:hover {
+    transform: scale(1.4);
 }
 
 .fab.fa-github-square.fa-2x {
     color: #fff;
-    padding-right: 5px;
+    padding-right: 8px;
+}
+
+.fab.fa-github-square.fa-2x:hover {
+    transform: scale(1.4);
 }
 
 .fab.fa-facebook-square.fa-2x {
     color: #fff;
-    padding-right: 5px
+    padding-right: 8px
 }
 
+.fab.fa-facebook-square.fa-2x:hover {
+    transform: scale(1.4);
+}
